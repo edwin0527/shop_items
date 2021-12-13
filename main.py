@@ -6,13 +6,6 @@ def tally(input):
     num_popcorn = 0
     num_combo = 0
 
-    # If the list has only on item
-    if len(input) == 1:
-        if input[0][11:] == 'soda':
-            cost += 2.50
-        else:
-            cost += 7.00
-
     # Keeps count of each number of items.
     for item in input:
         # Keeps count of every item
